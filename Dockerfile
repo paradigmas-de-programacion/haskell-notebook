@@ -10,10 +10,9 @@ FROM ghcr.io/ihaskell/ihaskell-notebook:master@sha256:d6d694711a3930be5439bfff3d
 
 USER root
 
-RUN mkdir /home/$NB_USER/learn_you_a_haskell
-COPY notebook/*.ipynb /home/$NB_USER/learn_you_a_haskell/
-COPY notebook/img /home/$NB_USER/learn_you_a_haskell/img
-RUN chown --recursive $NB_UID:users /home/$NB_USER/learn_you_a_haskell
+RUN mkdir /home/$NB_USER/apunte
+COPY notebook/*.ipynb /home/$NB_USER/apunte/
+RUN chown --recursive $NB_UID:users /home/$NB_USER/apunte
 
 ARG EXAMPLES_PATH=/home/$NB_USER/ihaskell_examples
 COPY notebook_extra/WidgetRevival.ipynb $EXAMPLES_PATH/

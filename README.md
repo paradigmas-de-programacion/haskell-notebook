@@ -2,6 +2,11 @@
 Este apunte es un fork del Jupyter Notebook que contiene el material del libro **Learn You a Haskell**.
 El notebook original puede conseguirse desde aquí: [https://github.com/IHaskell/learn-you-a-haskell-notebook](https://github.com/IHaskell/learn-you-a-haskell-notebook).
 
+> ¡Probalo online!
+> Este notebook se puede probar online gracias a Binder.
+> 
+> <a href="https://mybinder.org/v2/gh/paradigmas-de-programacion/haskell-notebook/master?urlpath=lab/tree/apunte/00-apunte-paradigmas.ipynb"><img src="https://raster.shields.io/badge/ejecutar-apunte%20interactivo-green"/></a>
+
 Con objetivo de documentar el uso, se deja el resto del README intacto.
 
 # How to run on your local computer in Visual Studio Code
